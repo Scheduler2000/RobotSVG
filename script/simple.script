@@ -1,0 +1,17 @@
+> goto rack
+    @R2D2.all
+        -move 0.1
+        -move 0.3
+        -move 0.01
+    @R2D2.all
+        -move -0.41
+end
+
+> goto rack2
+    @R2D3.all
+        -move 0.1
+        -move 0.3
+        -move 0.01
+    @R2D3.all
+        -move -0.41
+end

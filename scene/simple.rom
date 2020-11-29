@@ -1,0 +1,47 @@
+id=skybox width=1000 height=600
+
+
+$Robot:id=R2D2 mood=ohhh!
+{
+    posX_percentage=0.500 posY_percentage=0.42 composant=tete id=gueule forme=cercle width=0 height=40 color=120,004,255 
+    posX_percentage=0.475 posY_percentage=0.34 composant=haut_corps id=torse forme=rectangle width=50 height=70 color=255,004,120
+    posX_percentage=0.478 posY_percentage=0.222 composant=jambe_gauche id=jambe1 forme=rectangle width=15 height=50 color=100,000,200
+    posX_percentage=0.507 posY_percentage=0.222 composant=jambe_droite id=jambe2 forme=rectangle width=15 height=50 color=200,100,000
+    posX_percentage=0.424 posY_percentage=0.30 composant=bras_gauche id=bras1 forme=rectangle width=50 height=20 color=000,000,220
+    posX_percentage=0.526 posY_percentage=0.30 composant=bras_droit id=bras2 forme=rectangle width=50 height=20 color=220,000,000
+}
+
+$Robot:id=R2D3 mood=non_content
+{
+    posX_percentage=0.700 posY_percentage=0.42 composant=tete id=gueule forme=cercle width=0 height=40 color=120,004,255 
+    posX_percentage=0.675 posY_percentage=0.34 composant=haut_corps id=torse forme=rectangle width=50 height=70 color=255,004,120
+    posX_percentage=0.678 posY_percentage=0.222 composant=jambe_gauche id=jambe1 forme=rectangle width=15 height=50 color=100,000,200
+    posX_percentage=0.707 posY_percentage=0.222 composant=jambe_droite id=jambe2 forme=rectangle width=15 height=50 color=200,100,000
+    posX_percentage=0.624 posY_percentage=0.30 composant=bras_gauche id=bras1 forme=rectangle width=50 height=20 color=000,000,220
+    posX_percentage=0.726 posY_percentage=0.30 composant=bras_droit id=bras2 forme=rectangle width=50 height=20 color=220,000,000
+}
+
+#Decor:posX_percentage=0.05 posY_percentage=0.8 color=220,4,255
+{
+   id=planche1 forme=rectangle width=150 height=30
+}
+
+#Decor:posX_percentage=0.8 posY_percentage=0.9 color=120,4,255
+{
+   id=planche2 forme=rectangle width=150 height=30
+}
+
+#Decor:posX_percentage=0.343 posY_percentage=0.3 color=120,4,255
+{
+   id=poignet forme=cercle width=0 height=15
+}
+
+#Decor:posX_percentage=0.5 posY_percentage=0.3 color=120,4,255
+{
+   id=E.T forme=ellipse width=120 height=30
+}
+
+#Decor:posX_percentage=0.5 posY_percentage=0.5 color=120,4,255
+{
+   id=planche2 forme=triangle width=40 height=30
+}
